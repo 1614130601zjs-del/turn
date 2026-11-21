@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101827">
+<title>TURN 格式转换器</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1220;--panel:#151f31;--line:#2b3a52;--muted:#9cabc0;--text:#edf3fc;--accent:#c7dcff}
+*{box-sizing:border-box}body{margin:0;padding:22px 14px 40px;background:linear-gradient(155deg,#17243b,#0a101c 70%);color:var(--text);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:760px;margin:auto}header{margin:8px 0 20px}.eyebrow{font-size:11px;letter-spacing:.15em;color:#a8caff;font-weight:700}h1{font-size:26px;margin:5px 0}p{color:var(--muted);margin:6px 0}.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;margin:13px 0;box-shadow:0 12px 30px #0003}.heading{font-weight:700;margin-bottom:10px}.field{display:block;font-size:12px;color:var(--muted);margin:10px 0 5px}input[type=text]{width:100%;border:1px solid var(--line);background:#0b1423;color:var(--text);padding:12px;border-radius:10px;font-size:13px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:12px}button,.file-label{min-height:45px;border:1px solid #405575;background:#253854;color:white;border-radius:11px;padding:11px 13px;font-size:14px;font-weight:650;display:flex;align-items:center;justify-content:center;text-align:center;cursor:pointer}button.primary{background:#dce9ff;color:#10203a;border-color:#dce9ff}button:disabled{opacity:.4;cursor:not-allowed}input[type=file]{display:none}.status{white-space:pre-wrap;background:#0c1627;border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-top:12px;color:#c5d4e8;font-size:13px}.status.ok{color:#a8e4bd}.status.err{color:#ffb5b5}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}.stat{background:#0c1627;border:1px solid var(--line);border-radius:10px;padding:9px}.stat b{display:block;font-size:22px}.stat span{font-size:11px;color:var(--muted)}textarea{width:100%;min-height:230px;resize:vertical;background:#080e18;border:1px solid var(--line);border-radius:11px;padding:12px;color:#dce8fa;font:12px/1.65 ui-monospace,monospace}.hint,.foot{font-size:12px;color:var(--muted)}.foot{margin-top:13px}@media(max-width:440px){.actions{grid-template-columns:1fr}h1{font-size:23px}}
+</style>
+</head>
+<body><main>
+<header><div class="eyebrow">TURN TOOL · LOCAL CONVERTER</div><h1>TURN 格式转换器</h1><p>获取 gh-turnrank 名单，转换为链式 TURN 代理格式，并导出 TXT。</p></header>
+<section class="panel">
+<div class="heading">01 · 获取名单</div>
+<label class="field" for="source">GitHub CSV 地址</label>
+<input id="source" type="text" value="https://raw.githubusercontent.com/lc69282940/gh-turnrank/main/rank/rank-latest.csv">
+<div class="actions"><button id="fetch" class="primary">获取 GitHub 最新名单</button><label class="file-label" for="file">导入本地 CSV</label><input id="file" type="file" accept=".csv,text/csv"></div>
+<div id="status" class="status">等待导入。也可以选择手机里已下载的 CSV 文件。</div>
+</section>
+<section class="panel">
+<div class="heading">02 · 转换设置</div>
+<label class="field" for="prefix">固定前缀</label><input id="prefix" type="text" value="ovo.miumiumiu.cc.cd:443">
+<label class="field" for="proxyName">代理名称</label><input id="proxyName" type="text" value="链式TURN代理">
+<div class="actions"><button id="normal" class="primary" disabled>只转换正常节点</button><button id="all" disabled>转换全部记录</button></div>
+<p class="hint">默认筛选判定为「正常」的节点。全部记录模式会跳过状态筛选。</p>
+<div class="stats"><div class="stat"><b id="total">0</b><span>读取记录</span></div><div class="stat"><b id="count">0</b><span>输出节点</span></div><div class="stat"><b id="skipped">0</b><span>跳过记录</span></div></div>
+</section>
+<section class="panel">
+<div class="heading">03 · 预览与导出</div>
+<textarea id="output" placeholder="转换结果会显示在这里……" spellcheck="false"></textarea>
+<div class="actions"><button id="copy" disabled>复制全部</button><button id="download" class="primary" disabled>下载 TXT 文件</button></div>
+<div class="foot">导出文件名：TURN代理转换.txt。转换过程在当前浏览器本地完成，不会上传你导入的文件。</div>
+</section>
+</main>
+<script>
+const $=id=>document.getElementById(id);let rows=[];
+function say(t,kind=""){ $("status").textContent=t;$("status").className="status "+kind; }
+function csvParse(s){s=s.replace(/^\uFEFF/,"");let a=[],r=[],v="",q=false;for(let i=0;i<s.length;i++){let c=s[i],n=s[i+1];if(q){if(c==='"'&&n==='"'){v+='"';i++;}else if(c==='"')q=false;else v+=c;}else if(c==='"')q=true;else if(c===","){r.push(v);v="";}else if(c==="\n"){r.push(v);a.push(r);r=[];v="";}else if(c!=="\r")v+=c;}r.push(v);if(r.some(x=>x.trim()))a.push(r);if(a.length<2)throw Error("CSV 为空或没有数据行");let h=a[0].map(x=>x.trim());return a.slice(1).filter(x=>x.some(y=>y.trim())).map(x=>Object.fromEntries(h.map((k,i)=>[k,(x[i]||"").trim()])));}
+function findKey(obj,names){let ks=Object.keys(obj);for(let n of names){let k=ks.find(x=>x===n);if(k)return k;}for(let n of names){let k=ks.find(x=>x.toLowerCase().includes(n.toLowerCase()));if(k)return k;}return null;}
+function schema(){if(!rows.length)throw Error("请先获取或导入 CSV");let s=rows[0],relay=findKey(s,["中继","relay","turn","地址","server"]),country=findKey(s,["国家","country","地区","国家代码"]),status=findKey(s,["判定","状态","status","result"]);if(!relay||!country)throw Error("未找到中继地址列或国家列。CSV 表头："+Object.keys(s).join("、"));return{relay,country,status};}
+async function load(text,name){try{rows=csvParse(text);schema();$("normal").disabled=$("all").disabled=false;$("total").textContent=rows.length;say("已读取 "+name+"："+rows.length+" 条记录。请选择转换方式。","ok");}catch(e){rows=[];$("normal").disabled=$("all").disabled=true;say("读取失败："+e.message,"err");}}
+function convert(onlyNormal){try{let k=schema(),prefix=$("prefix").value.trim(),name=$("proxyName").value.trim();if(!prefix||!name)throw Error("前缀和代理名称不能为空");let out=[],skip=0;for(let r of rows){let addr=(r[k.relay]||"").trim(),country=(r[k.country]||"").trim(),st=k.status?(r[k.status]||"").trim():"";if(!addr||!country||(onlyNormal&&k.status&&st!=="正常")){skip++;continue;}if(!/^turn:\/\//i.test(addr))addr="turn://"+addr;out.push(prefix+"#"+country+" "+name+"$"+addr);} $("output").value=out.join("\n");$("count").textContent=out.length;$("skipped").textContent=skip;$("copy").disabled=$("download").disabled=!out.length;say("转换完成：输出 "+out.length+" 条，跳过 "+skip+" 条。","ok");}catch(e){say(e.message,"err");}}
+$("fetch").onclick=async()=>{let url=$("source").value.trim();$("fetch").disabled=true;say("正在获取 GitHub CSV……");try{let r=await fetch(url,{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);await load(await r.text(),"GitHub 最新名单");}catch(e){say("在线获取失败："+e.message+"。可下载 CSV 后使用「导入本地 CSV」。如果是跨域限制，请使用本地导入。","err");}finally{$("fetch").disabled=false;}};
+$("file").onchange=async e=>{let f=e.target.files[0];if(f)await load(await f.text(),f.name);e.target.value="";};
+$("normal").onclick=()=>convert(true);$("all").onclick=()=>convert(false);
+$("copy").onclick=async()=>{try{await navigator.clipboard.writeText($("output").value);say("已复制全部转换结果。","ok");}catch(e){$("output").select();say("浏览器未允许自动复制，请长按文本框手动复制。","err");}};
+$("download").onclick=()=>{let b=new Blob(["\uFEFF"+$("output").value],{type:"text/plain;charset=utf-8"}),u=URL.createObjectURL(b),a=document.createElement("a");a.href=u;a.download="TURN代理转换.txt";document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(u);say("TXT 文件已生成。","ok");};
+</script></body></html>
