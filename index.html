@@ -7,7 +7,7 @@
 <title>TURN 格式转换器</title>
 <style>
 :root{color-scheme:dark;--bg:#0b1220;--panel:#151f31;--line:#2b3a52;--muted:#9cabc0;--text:#edf3fc;--accent:#c7dcff}
-*{box-sizing:border-box}body{margin:0;padding:22px 14px 40px;background:linear-gradient(155deg,#17243b,#0a101c 70%);color:var(--text);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:760px;margin:auto}header{margin:8px 0 20px}.eyebrow{font-size:11px;letter-spacing:.15em;color:#a8caff;font-weight:700}h1{font-size:26px;margin:5px 0}p{color:var(--muted);margin:6px 0}.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;margin:13px 0;box-shadow:0 12px 30px #0003}.heading{font-weight:700;margin-bottom:10px}.field{display:block;font-size:12px;color:var(--muted);margin:10px 0 5px}input[type=text]{width:100%;border:1px solid var(--line);background:#0b1423;color:var(--text);padding:12px;border-radius:10px;font-size:13px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:12px}button,.file-label{min-height:45px;border:1px solid #405575;background:#253854;color:white;border-radius:11px;padding:11px 13px;font-size:14px;font-weight:650;display:flex;align-items:center;justify-content:center;text-align:center;cursor:pointer}button.primary{background:#dce9ff;color:#10203a;border-color:#dce9ff}button:disabled{opacity:.4;cursor:not-allowed}input[type=file]{display:none}.status{white-space:pre-wrap;background:#0c1627;border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-top:12px;color:#c5d4e8;font-size:13px}.status.ok{color:#a8e4bd}.status.err{color:#ffb5b5}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}.stat{background:#0c1627;border:1px solid var(--line);border-radius:10px;padding:9px}.stat b{display:block;font-size:22px}.stat span{font-size:11px;color:var(--muted)}textarea{width:100%;min-height:230px;resize:vertical;background:#080e18;border:1px solid var(--line);border-radius:11px;padding:12px;color:#dce8fa;font:12px/1.65 ui-monospace,monospace}.hint,.foot{font-size:12px;color:var(--muted)}.foot{margin-top:13px}@media(max-width:440px){.actions{grid-template-columns:1fr}h1{font-size:23px}}
+*{box-sizing:border-box}body{margin:0;padding:22px 14px 40px;background:linear-gradient(155deg,#17243b,#0a101c 70%);color:var(--text);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:760px;margin:auto}header{margin:8px 0 20px}.eyebrow{font-size:11px;letter-spacing:.15em;color:#a8caff;font-weight:700}h1{font-size:26px;margin:5px 0}p{color:var(--muted);margin:6px 0}.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;margin:13px 0;box-shadow:0 12px 30px #0003}.heading{font-weight:700;margin-bottom:10px}.field{display:block;font-size:12px;color:var(--muted);margin:10px 0 5px}input[type=text],input[type=password]{width:100%;border:1px solid var(--line);background:#0b1423;color:var(--text);padding:12px;border-radius:10px;font-size:13px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:12px}button,.file-label{min-height:45px;border:1px solid #405575;background:#253854;color:white;border-radius:11px;padding:11px 13px;font-size:14px;font-weight:650;display:flex;align-items:center;justify-content:center;text-align:center;cursor:pointer}button.primary{background:#dce9ff;color:#10203a;border-color:#dce9ff}button:disabled{opacity:.4;cursor:not-allowed}input[type=file]{display:none}.status{white-space:pre-wrap;background:#0c1627;border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-top:12px;color:#c5d4e8;font-size:13px}.status.ok{color:#a8e4bd}.status.err{color:#ffb5b5}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}.stat{background:#0c1627;border:1px solid var(--line);border-radius:10px;padding:9px}.stat b{display:block;font-size:22px}.stat span{font-size:11px;color:var(--muted)}textarea{width:100%;min-height:230px;resize:vertical;background:#080e18;border:1px solid var(--line);border-radius:11px;padding:12px;color:#dce8fa;font:12px/1.65 ui-monospace,monospace}.hint,.foot{font-size:12px;color:var(--muted)}.foot{margin-top:13px}@media(max-width:440px){.actions{grid-template-columns:1fr}h1{font-size:23px}}
 </style>
 </head>
 <body><main>
@@ -39,6 +39,17 @@
 <label class="field" for="subscription">HTTPS 订阅地址</label>
 <input id="subscription" type="text" readonly value="https://raw.githubusercontent.com/1614130601zjs-del/turn/main/subscribe.txt">
 <div class="actions"><button id="copySub" class="primary">复制订阅链接</button><button id="openSub">查看订阅内容</button></div>
+</section>
+<section class="panel">
+<div class="heading">05 · 我的累积订阅</div>
+<p>把每次导入并转换的节点追加到同一个文件。已有节点会保留，重复行会自动跳过，订阅地址固定不变。</p>
+<label class="field" for="githubToken">GitHub Fine-grained Token（仅本次页面打开期间使用）</label>
+<input id="githubToken" type="password" autocomplete="off" placeholder="粘贴有 turn 仓库 Contents 读写权限的 Token">
+<p class="hint">创建 Token 时只选择仓库 1614130601zjs-del/turn，并授予 Contents：Read and write。不要把 Token 发给任何人，也不要提交到仓库。</p>
+<label class="field" for="mySubscription">你的固定订阅地址</label>
+<input id="mySubscription" type="text" readonly value="https://raw.githubusercontent.com/1614130601zjs-del/turn/main/my-subscription.txt">
+<div class="actions"><button id="appendMySub" class="primary">追加当前转换结果</button><button id="copyMySub">复制我的订阅链接</button></div>
+<div class="hint" id="mySubStatus">先导入文件并完成转换，再追加到订阅。</div>
 </section>
 </main>
 <script>
@@ -107,6 +118,36 @@ $("file").onchange=async e=>{let f=e.target.files[0];if(f)await load(await f.tex
 $("normal").onclick=()=>convert(true);$("all").onclick=()=>convert(false);
 $("copySub").onclick=async()=>{try{await navigator.clipboard.writeText($("subscription").value);say("已复制订阅链接。","ok");}catch(e){$("subscription").select();say("请长按订阅地址手动复制。","err");}};
 $("openSub").onclick=()=>window.open($("subscription").value,"_blank","noopener");
+$("copyMySub").onclick=async()=>{try{await navigator.clipboard.writeText($("mySubscription").value);$("mySubStatus").textContent="已复制个人订阅链接。";}catch(e){$("mySubscription").select();$("mySubStatus").textContent="请长按地址手动复制。";}};
+function encodeBase64Utf8(value){const bytes=new TextEncoder().encode(value);let binary="";for(let i=0;i<bytes.length;i+=0x8000)binary+=String.fromCharCode(...bytes.subarray(i,i+0x8000));return btoa(binary);}
+function decodeBase64Utf8(value){const binary=atob(value.replace(/\s/g,""));const bytes=Uint8Array.from(binary,c=>c.charCodeAt(0));return new TextDecoder().decode(bytes);}
+$("appendMySub").onclick=async()=>{
+ const token=$("githubToken").value.trim();
+ const incoming=$("output").value.split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
+ const status=$("mySubStatus"),button=$("appendMySub");
+ if(!token){status.textContent="请先粘贴 GitHub Fine-grained Token。";return;}
+ if(!incoming.length){status.textContent="当前没有转换结果，请先导入文件并点击转换。";return;}
+ button.disabled=true;status.textContent="正在读取现有个人订阅……";
+ const api="https://api.github.com/repos/1614130601zjs-del/turn/contents/my-subscription.txt";
+ const headers={"Accept":"application/vnd.github+json","Authorization":"Bearer "+token,"X-GitHub-Api-Version":"2022-11-28"};
+ try{
+  let existing="",sha=null;
+  const get=await fetch(api,{headers,cache:"no-store"});
+  if(get.status===200){const data=await get.json();sha=data.sha;existing=decodeBase64Utf8(data.content||"");}
+  else if(get.status!==404){const err=await get.json().catch(()=>({}));throw Error("读取失败："+(err.message||("HTTP "+get.status)));}
+  const seen=new Set(existing.split(/\r?\n/).map(x=>x.trim()).filter(Boolean));
+  const added=incoming.filter(line=>{if(seen.has(line))return false;seen.add(line);return true;});
+  if(!added.length){status.textContent="没有新增节点：导入内容都已存在。订阅文件保持不变。";return;}
+  const merged=[...existing.split(/\r?\n/).map(x=>x.trim()).filter(Boolean),...added].join("\n")+"\n";
+  const payload={message:"chore: append personal TURN subscription",content:encodeBase64Utf8(merged)};
+  if(sha)payload.sha=sha;
+  const put=await fetch(api,{method:"PUT",headers:{...headers,"Content-Type":"application/json"},body:JSON.stringify(payload)});
+  const result=await put.json().catch(()=>({}));
+  if(!put.ok)throw Error("写入失败："+(result.message||("HTTP "+put.status)));
+  status.textContent="追加成功！本次新增 "+added.length+" 条，累计 "+seen.size+" 条。固定订阅链接无需更换。";
+ }catch(e){status.textContent=e.message+"。请检查 Token 是否只对 turn 仓库开放且 Contents 权限为 Read and write。";}
+ finally{button.disabled=false;}
+};
 $("copy").onclick=async()=>{try{await navigator.clipboard.writeText($("output").value);say("已复制全部转换结果。","ok");}catch(e){$("output").select();say("浏览器未允许自动复制，请长按文本框手动复制。","err");}};
 $("download").onclick=()=>{let b=new Blob(["\uFEFF"+$("output").value],{type:"text/plain;charset=utf-8"}),u=URL.createObjectURL(b),a=document.createElement("a");a.href=u;a.download="TURN代理转换.txt";document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(u);say("TXT 文件已生成。","ok");};
 </script></body></html>
