@@ -15,6 +15,8 @@ ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://34.236.64.164:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://184.196.69.223:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://100.49.246.146:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://47.254.74.127:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://134.209.77.181:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://40.160.87.171:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://155.117.18.200:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://45.79.168.64:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://216.176.200.37:3478
@@ -26,9 +28,11 @@ ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://64.225.10.72:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://184.34.31.136:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://52.10.14.24:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://156.238.225.88:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://169.197.91.100:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://96.245.74.202:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://34.16.144.188:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://173.230.142.251:3478
+ovo.miumiumiu.cc.cd:443#CA 链式TURN代理$turn://15.156.12.44:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://207.211.164.64:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://100.61.96.180:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://66.23.204.98:3478
@@ -46,9 +50,11 @@ ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://49.51.199.210:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://198.23.200.218:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://23.108.190.131:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://40.160.62.128:3478
+ovo.miumiumiu.cc.cd:443#CO 链式TURN代理$turn://198.50.202.74:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://76.255.198.147:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://178.156.143.214:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://47.254.70.51:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://157.173.195.72:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://192.3.28.12:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://104.197.151.62:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://150.136.62.165:3478
@@ -58,6 +64,7 @@ ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://184.13.106.29:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://74.208.72.195:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://94.183.184.176:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://139.177.206.54:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://192.3.55.104:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://73.133.157.152:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://50.147.4.10:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://65.49.220.245:3478
@@ -66,6 +73,7 @@ ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://167.88.164.136:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://69.30.247.219:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://148.135.105.97:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://45.27.170.171:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://45.12.52.94:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://143.42.156.56:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://192.34.102.143:3478
 ovo.miumiumiu.cc.cd:443#CA 链式TURN代理$turn://199.58.81.158:3478
@@ -92,6 +100,7 @@ ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://47.199.57.14:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://45.33.15.169:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://155.138.202.133:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://152.53.82.246:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://45.33.67.9:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://201.79.32.127:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://20.150.217.50:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://206.207.50.158:3478
@@ -104,7 +113,9 @@ ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://5.78.156.77:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://74.64.37.150:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://208.72.189.206:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://24.5.14.146:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://162.35.117.158:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://131.148.201.37:5349
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://186.244.240.207:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://147.93.133.235:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://217.77.2.132:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://24.213.7.100:5349
@@ -114,6 +125,7 @@ ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://4.79.137.246:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://156.229.164.108:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://212.28.189.163:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://129.212.177.188:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://5.252.53.77:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://34.44.70.245:3478
 ovo.miumiumiu.cc.cd:443#MX 链式TURN代理$turn://140.84.162.216:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://64.64.252.96:3478
@@ -202,6 +214,8 @@ ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://107.173.226.163:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://147.182.169.213:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://162.223.14.232:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://140.82.48.55:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://161.35.51.107:3478
+ovo.miumiumiu.cc.cd:443#CO 链式TURN代理$turn://198.50.202.79:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://178.156.251.236:3478
 ovo.miumiumiu.cc.cd:443#CA 链式TURN代理$turn://167.114.10.155:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://45.42.215.26:3478
@@ -217,6 +231,7 @@ ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://23.137.255.53:3478
 ovo.miumiumiu.cc.cd:443#CA 链式TURN代理$turn://38.49.209.111:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://172.203.132.119:3478
 ovo.miumiumiu.cc.cd:443#CA 链式TURN代理$turn://208.111.83.108:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://136.0.41.49:3478
 ovo.miumiumiu.cc.cd:443#CA 链式TURN代理$turn://167.114.10.156:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://35.86.20.110:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://75.83.8.129:3478
@@ -246,6 +261,7 @@ ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://209.38.192.226:3478
 ovo.miumiumiu.cc.cd:443#GB 链式TURN代理$turn://216.213.182.64:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://89.82.20.51:3478
 ovo.miumiumiu.cc.cd:443#SE 链式TURN代理$turn://45.83.222.99:3478
+ovo.miumiumiu.cc.cd:443#NL 链式TURN代理$turn://82.27.201.119:3478
 ovo.miumiumiu.cc.cd:443#NL 链式TURN代理$turn://test:test123@165.232.85.81:3478
 ovo.miumiumiu.cc.cd:443#NL 链式TURN代理$turn://51.158.146.60:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://144.91.90.143:3478
@@ -257,6 +273,8 @@ ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://185.207.104.31:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://57.129.81.3:3478
 ovo.miumiumiu.cc.cd:443#DK 链式TURN代理$turn://95.142.104.174:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://24.5.14.146:5349
+ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://89.168.56.99:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://18.196.242.11:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://test:1234@61.77.125.192:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://46.225.223.140:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://test:test123@104.248.25.242:3478
@@ -289,6 +307,8 @@ ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://145.253.151.235:3478
 ovo.miumiumiu.cc.cd:443#NO 链式TURN代理$turn://51.174.123.252:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://116.203.34.229:3478
 ovo.miumiumiu.cc.cd:443#CH 链式TURN代理$turn://87.239.205.103:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://167.233.24.105:3478
+ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://193.46.243.37:3478
 ovo.miumiumiu.cc.cd:443#AT 链式TURN代理$turn://185.119.117.112:3478
 ovo.miumiumiu.cc.cd:443#NL 链式TURN代理$turn://turn:123456@213.30.217.221:3478
 ovo.miumiumiu.cc.cd:443#GB 链式TURN代理$turn://109.228.61.173:3478
@@ -301,6 +321,7 @@ ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://157.230.140.236:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://85.215.237.102:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://3.70.224.86:3478
 ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://103.179.45.109:3478
+ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://213.32.71.101:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://49.12.243.224:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://152.53.144.165:3478
 ovo.miumiumiu.cc.cd:443#SE 链式TURN代理$turn://16.170.85.55:3478
@@ -321,6 +342,7 @@ ovo.miumiumiu.cc.cd:443#CH 链式TURN代理$turn://83.228.216.159:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://178.63.113.50:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://109.90.198.197:3478
 ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://108.160.134.100:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://62.141.51.126:3478
 ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://54.95.231.121:3478
 ovo.miumiumiu.cc.cd:443#GB 链式TURN代理$turn://86.29.109.87:3478
 ovo.miumiumiu.cc.cd:443#CZ 链式TURN代理$turn://37.205.8.43:3478
@@ -345,6 +367,9 @@ ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://185.249.227.68:3478
 ovo.miumiumiu.cc.cd:443#FI 链式TURN代理$turn://2.29.153.76:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://130.180.19.146:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://82.64.152.22:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://168.119.225.165:3478
+ovo.miumiumiu.cc.cd:443#CH 链式TURN代理$turn://94.103.99.221:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://31.47.228.58:3478
 ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://207.148.105.137:3478
 ovo.miumiumiu.cc.cd:443#EE 链式TURN代理$turn://185.4.72.143:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://91.107.220.110:3478
@@ -358,6 +383,7 @@ ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://203.183.43.230:3478
 ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://124.219.175.139:3478
 ovo.miumiumiu.cc.cd:443#FI 链式TURN代理$turn://65.109.253.7:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://51.91.251.23:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://34.173.79.83:3478
 ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://161.33.181.120:3478
 ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://8.216.43.195:3478
 ovo.miumiumiu.cc.cd:443#IT 链式TURN代理$turn://88.53.116.149:3478
@@ -380,6 +406,8 @@ ovo.miumiumiu.cc.cd:443#HU 链式TURN代理$turn://91.146.180.91:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://51.159.131.75:3478
 ovo.miumiumiu.cc.cd:443#GB 链式TURN代理$turn://194.164.29.86:3478
 ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://49.212.137.240:3478
+ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://177.124.23.58:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://91.99.4.23:3478
 ovo.miumiumiu.cc.cd:443#FI 链式TURN代理$turn://37.27.134.107:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://80.152.153.30:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://95.88.109.88:3478
@@ -393,6 +421,8 @@ ovo.miumiumiu.cc.cd:443#GB 链式TURN代理$turn://217.155.106.232:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://13.140.190.198:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://152.228.189.153:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://91.99.131.189:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://116.202.109.54:3478
+ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://137.131.139.141:3478
 ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://222.10.185.4:3478
 ovo.miumiumiu.cc.cd:443#FI 链式TURN代理$turn://37.27.210.141:3478
 ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://45.233.16.23:3478
@@ -422,6 +452,8 @@ ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://169.58.196.114:3478
 ovo.miumiumiu.cc.cd:443#SE 链式TURN代理$turn://94.136.71.45:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://63.186.185.36:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://180.70.116.215:3478
+ovo.miumiumiu.cc.cd:443#FI 链式TURN代理$turn://64.188.74.44:3478
+ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://212.134.92.187:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://125.131.86.246:3478
 ovo.miumiumiu.cc.cd:443#IE 链式TURN代理$turn://54.220.219.137:3478
 ovo.miumiumiu.cc.cd:443#IE 链式TURN代理$turn://99.81.237.27:3478
@@ -447,6 +479,7 @@ ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://54.38.221.251:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://161.97.137.183:3478
 ovo.miumiumiu.cc.cd:443#FI 链式TURN代理$turn://135.181.250.119:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://193.122.104.87:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://217.160.89.41:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://129.154.200.59:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://59.29.132.48:3478
 ovo.miumiumiu.cc.cd:443#NL 链式TURN代理$turn://turn:123456@213.30.217.221:3479
@@ -466,6 +499,7 @@ ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://118.131.251.206:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://89.91.161.46:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://178.33.104.199:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://211.180.253.239:3479
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://89.167.24.101:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://194.104.114.34:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://211.216.128.185:3478
 ovo.miumiumiu.cc.cd:443#TW 链式TURN代理$turn://122.116.70.119:3478
@@ -492,6 +526,8 @@ ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://83.220.175.122:3478
 ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://177.153.194.6:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://78.47.22.85:3478
 ovo.miumiumiu.cc.cd:443#HK 链式TURN代理$turn://38.55.195.171:3478
+ovo.miumiumiu.cc.cd:443#GB 链式TURN代理$turn://149.102.152.148:3478
+ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://138.99.198.94:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://18.185.148.154:3478
 ovo.miumiumiu.cc.cd:443#GB 链式TURN代理$turn://195.80.16.8:3478
 ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://160.251.251.87:3478
@@ -526,6 +562,7 @@ ovo.miumiumiu.cc.cd:443#GB 链式TURN代理$turn://18.130.145.231:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://212.83.43.10:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://217.182.138.237:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://94.231.205.158:3478
+ovo.miumiumiu.cc.cd:443#FI 链式TURN代理$turn://65.109.59.170:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://18.195.51.64:3478
 ovo.miumiumiu.cc.cd:443#TW 链式TURN代理$turn://test:test@122.117.135.61:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://192.145.37.124:3478
@@ -552,6 +589,11 @@ ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://133.7.197.10:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://173.212.213.194:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://159.195.138.37:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://168.107.11.205:3478
+ovo.miumiumiu.cc.cd:443#GB 链式TURN代理$turn://82.10.213.27:3478
+ovo.miumiumiu.cc.cd:443#NL 链式TURN代理$turn://144.21.36.110:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://91.6.14.238:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://31.77.168.100:3478
+ovo.miumiumiu.cc.cd:443#PL 链式TURN代理$turn://20.215.249.193:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://152.228.189.146:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://194.36.144.160:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://87.106.215.118:3478
@@ -616,6 +658,8 @@ ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://51.38.110.14:3478
 ovo.miumiumiu.cc.cd:443#SG 链式TURN代理$turn://103.7.200.30:3479
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://173.249.33.91:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://188.245.197.136:3478
+ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://99.82.211.30:3478
+ovo.miumiumiu.cc.cd:443#IT 链式TURN代理$turn://15.160.145.153:3478
 ovo.miumiumiu.cc.cd:443#FI 链式TURN代理$turn://31.76.31.196:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://turn:turn@213.179.138.203:3478
 ovo.miumiumiu.cc.cd:443#NL 链式TURN代理$turn://62.45.174.24:3478
@@ -666,6 +710,11 @@ ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://63.250.59.88:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://5.9.96.209:3478
 ovo.miumiumiu.cc.cd:443#HU 链式TURN代理$turn://195.228.155.226:3478
 ovo.miumiumiu.cc.cd:443#SG 链式TURN代理$turn://129.226.214.137:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://193.26.159.139:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://168.119.146.133:3478
+ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://177.91.118.75:3478
+ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://16.5.55.181:3478
+ovo.miumiumiu.cc.cd:443#CO 链式TURN代理$turn://181.143.222.45:3478
 ovo.miumiumiu.cc.cd:443#PL 链式TURN代理$turn://83.13.244.126:3478
 ovo.miumiumiu.cc.cd:443#FI 链式TURN代理$turn://46.62.133.184:3478
 ovo.miumiumiu.cc.cd:443#NZ 链式TURN代理$turn://163.47.131.236:3478
@@ -721,6 +770,8 @@ ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://178.20.47.179:3478
 ovo.miumiumiu.cc.cd:443#HK 链式TURN代理$turn://101.32.29.6:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://37.49.110.155:3478
 ovo.miumiumiu.cc.cd:443#SG 链式TURN代理$turn://51.79.138.120:3478
+ovo.miumiumiu.cc.cd:443#LV 链式TURN代理$turn://31.56.205.224:3478
+ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://62.224.246.89:3478
 ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://95.31.175.226:3478
 ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://193.124.115.32:3478
 ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://89.104.114.62:3478
@@ -764,6 +815,7 @@ ovo.miumiumiu.cc.cd:443#TW 链式TURN代理$turn://admin:admin@211.22.65.8:3478
 ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://45.168.55.66:3478
 ovo.miumiumiu.cc.cd:443#SG 链式TURN代理$turn://43.159.38.237:3478
 ovo.miumiumiu.cc.cd:443#FI 链式TURN代理$turn://65.21.240.166:3478
+ovo.miumiumiu.cc.cd:443#TH 链式TURN代理$turn://203.170.129.43:3478
 ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://95.165.169.101:3479
 ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://45.6.67.32:3478
 ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://62.109.25.47:3478
@@ -805,6 +857,7 @@ ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://95.31.20.137:3478
 ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://109.71.11.162:3478
 ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://83.68.35.165:3478
 ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://177.125.244.38:3478
+ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://178.209.107.122:3478
 ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://77.20.243.38:3478
 ovo.miumiumiu.cc.cd:443#IL 链式TURN代理$turn://62.56.141.78:3478
 ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://85.192.20.72:3478
@@ -887,6 +940,7 @@ ovo.miumiumiu.cc.cd:443#MY 链式TURN代理$turn://124.217.248.174:3478
 ovo.miumiumiu.cc.cd:443#SG 链式TURN代理$turn://34.143.164.85:3478
 ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://83.174.209.87:3478
 ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://177.234.164.246:3478
+ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://138.122.44.135:3478
 ovo.miumiumiu.cc.cd:443#IN 链式TURN代理$turn://103.177.120.72:3478
 ovo.miumiumiu.cc.cd:443#FR 链式TURN代理$turn://90.112.252.93:3478
 ovo.miumiumiu.cc.cd:443#SG 链式TURN代理$turn://47.84.0.145:3478
@@ -908,6 +962,8 @@ ovo.miumiumiu.cc.cd:443#IN 链式TURN代理$turn://47.29.26.213:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://223.130.134.24:3478
 ovo.miumiumiu.cc.cd:443#SG 链式TURN代理$turn://111.91.26.226:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://102.134.55.88:3478
+ovo.miumiumiu.cc.cd:443#PH 链式TURN代理$turn://8.212.171.226:3478
+ovo.miumiumiu.cc.cd:443#BR 链式TURN代理$turn://45.177.189.6:3478
 ovo.miumiumiu.cc.cd:443#IN 链式TURN代理$turn://202.122.21.8:3478
 ovo.miumiumiu.cc.cd:443#IN 链式TURN代理$turn://223.235.16.53:3478
 ovo.miumiumiu.cc.cd:443#MY 链式TURN代理$turn://38.55.252.107:3478
@@ -930,6 +986,10 @@ ovo.miumiumiu.cc.cd:443#DE 链式TURN代理$turn://62.159.24.56:3478
 ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://82.208.99.240:3478
 ovo.miumiumiu.cc.cd:443#RU 链式TURN代理$turn://91.219.137.59:3478
 ovo.miumiumiu.cc.cd:443#BD 链式TURN代理$turn://103.204.200.67:3478
+ovo.miumiumiu.cc.cd:443#ID 链式TURN代理$turn://103.127.132.72:3478
+ovo.miumiumiu.cc.cd:443#IN 链式TURN代理$turn://150.241.245.100:3478
+ovo.miumiumiu.cc.cd:443#VN 链式TURN代理$turn://103.120.242.97:3478
+ovo.miumiumiu.cc.cd:443#UZ 链式TURN代理$turn://90.156.162.162:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://61.74.68.17:3478
 ovo.miumiumiu.cc.cd:443#IN 链式TURN代理$turn://144.24.125.128:3478
 ovo.miumiumiu.cc.cd:443#IN 链式TURN代理$turn://1.23.83.2:3478
@@ -945,6 +1005,7 @@ ovo.miumiumiu.cc.cd:443#TW 链式TURN代理$turn://test:test@203.74.127.176:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://112.175.27.114:3479
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://61.74.68.16:3478
 ovo.miumiumiu.cc.cd:443#JP 链式TURN代理$turn://219.117.234.178:3478
+ovo.miumiumiu.cc.cd:443#UZ 链式TURN代理$turn://93.188.81.227:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://112.175.27.113:3478
 ovo.miumiumiu.cc.cd:443#MY 链式TURN代理$turn://110.4.40.110:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://112.175.27.113:3479
@@ -954,4 +1015,5 @@ ovo.miumiumiu.cc.cd:443#BD 链式TURN代理$turn://103.136.105.214:3478
 ovo.miumiumiu.cc.cd:443#TW 链式TURN代理$turn://test:test@1.34.178.100:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://211.226.29.70:3478
 ovo.miumiumiu.cc.cd:443#CA 链式TURN代理$turn://15.175.14.226:3478
+ovo.miumiumiu.cc.cd:443#IN 链式TURN代理$turn://5.175.216.117:3478
 ovo.miumiumiu.cc.cd:443#MY 链式TURN代理$turn://218.208.86.13:3478
