@@ -1716,3 +1716,12 @@ ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://107.175.77.19:3478
 ovo.miumiumiu.cc.cd:443#US 链式TURN代理$turn://146.235.210.229:3478
 ovo.miumiumiu.cc.cd:443#CO 链式TURN代理$turn://198.50.202.86:3478
 ovo.miumiumiu.cc.cd:443#KR 链式TURN代理$turn://211.226.29.70:3478
+ovo.miumiumiu.cc.cd:443#未知 链式TURN代理$turn://31.149.109.94:3478
+ovo.miumiumiu.cc.cd:443#未知 链式TURN代理$turn://62.45.174.24:3478
+ovo.miumiumiu.cc.cd:443#未知 链式TURN代理$turn://77.170.229.62:3478
+ovo.miumiumiu.cc.cd:443#未知 链式TURN代理$turn://77.174.136.178:3478
+ovo.miumiumiu.cc.cd:443#未知 链式TURN代理$turn://82.168.220.246:3478
+ovo.miumiumiu.cc.cd:443#未知 链式TURN代理$turn://82.174.232.227:3478
+ovo.miumiumiu.cc.cd:443#未知 链式TURN代理$turn://84.84.38.4:3478
+ovo.miumiumiu.cc.cd:443#未知 链式TURN代理$turn://85.146.15.41:3478
+ovo.miumiumiu.cc.cd:443#未知 链式TURN代理$turn://188.89.95.123:3478
